@@ -4,47 +4,47 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}
+Dor! {}
 
-Welcome to {}
-
-If you don't trust this bot, 
-1) stop reading this message
-2) delete this chat
-
-Still reading?
-You can use me to generate pyrogram and telethon string session. Use below buttons to learn more !
-
-By @StarkBots
+{} Memudahkan Anda Mengambil String
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+**Kamu tidak percaya dengan bot ini?**
+1. *Blokir Bot ini*
+2. *Delete Chat.*
+*MAU MAKE / ENGGA TERSERAH*
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+**Masih disini?**
+*Baiklah Silakan Pencet /generate*
+*String Pyrogram untuk Bot Music*
+*String Telethon Untuk Userbot*
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+By @Zenzuzu2
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]
+        [InlineKeyboardButton(text="› Back ‹", callback_data="home")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")]
+        [InlineKeyboardButton("**» GENERATE STRING «**", callback_data="generate")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("**» GENERATE STRING «**", callback_data="generate")]
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("*Butuh bantuan❔*", callback_data="help"),
+            InlineKeyboardButton("*About Me❔*", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
     ]
 
     # Help Message
     HELP = """
 ✨ **Available Commands** ✨
 
-/about - About The Bot
-/help - This Message
+/about - Info Bot
+/help - Butuh Bantuan?
 /start - Start the Bot
 /generate - Start Generating Session
 /cancel - Cancel the process
@@ -53,15 +53,15 @@ By @StarkBots
 
     # About Message
     ABOUT = """
-**About This Bot** 
+💡 **About Zenzu String**
 
-A telegram bot to generate pyrogram and telethon string session by @StarkBots
-
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/StringSessionBot)
-
-Framework : [Pyrogram](docs.pyrogram.org)
-
-Language : [Python](www.python.org)
-
-Developer : @StarkProgrammer
+*Bot Untuk Mengambil String Dengan Mudah*
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+👋Owner : [Zenzu](https://t.me/Zenzuzu2)
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+☕Channel : [Black Market](https://t.me/Market_Userbot)
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+💫Groups : [Black Market](https://t.me/markettblack)
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+✨*Thanks for using my bots*✨
     """
